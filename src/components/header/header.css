@@ -1,0 +1,84 @@
+
+
+.nav-item a, .basic-nav-dropdown{
+  color: white !important;
+  background-color: transparent;
+}
+
+.navbar-nav .dropdown-menu{
+  background-color: rgba(0, 0, 0, 0.822) ;
+}
+#basic-navbar-nav{
+  justify-content: space-around !important;
+}
+.basic-nav-dropdown a:hover{
+background-color: black !important;
+}
+.css-v4u5dn-MuiInputBase-root-MuiInput-root{
+  color: white !important;
+}
+
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root{
+  color: white !important;
+}
+.css-bn8pyn-MuiFormLabel-root-MuiInputLabel-root {
+  color: white !important;
+}
+.css-v4u5dn-MuiInputBase-root-MuiInput-root:after{
+  border-bottom: white !important;
+}
+.css-llg55a-MuiFormLabel-root-MuiInputLabel-root{
+  color: white !important;
+}
+.css-pjaces-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled, .Mui-error):before {
+  border-bottom: 1px solid rgb(255, 255, 255) !important;
+}
+
+.css-pjaces-MuiInputBase-root-MuiInput-root:after{
+  border-bottom: 1px solid rgb(255, 255, 255) !important;
+}
+.css-1x51dt5-MuiInputBase-input-MuiInput-input {
+  color: white !important;
+}
+
+.me-auto{
+  margin-right: 0 !important;
+}
+
+.dropdown-item a:hover{
+  
+  background-color: black !important;
+}
+.navbar-nav a{
+  color: white !important;
+}
+
+.me-auto{
+  margin: 0 !important;
+}
+
+.searchForm input{
+  outline: none ;
+  border: none;
+}
+
+
+
+@media screen and (max-width:991px) {
+    .speedDial{
+      position: absolute;
+      right: 85%;
+    }
+
+    .navbar-brand{
+        position: absolute;
+        right: 40%;
+        top: 20%;
+    }
+    
+  }
+
+  .navBar{
+    position: sticky !important;
+    top: 0 !important;
+  }

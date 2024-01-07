@@ -1,0 +1,34 @@
+.review-card{
+    width: 300px;
+    height: 250px;
+    box-shadow: 0 0 2px 1px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.review-image{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.review-image img{
+    width: 100%;
+}
+
+
+.review-container{
+    overflow: auto;
+    height: 350px;
+
+}
+.review-card-container{
+    
+    flex: none;
+    margin: 20px 10px;
+    /* height: 350px; */
+
+}

@@ -1,0 +1,70 @@
+
+.sidebar{
+    width: 18%;
+    min-height: 100%;
+    color: white;
+    margin-left: 10px;
+    position: fixed;
+}
+.admin-penal{
+    border-bottom:  1px rgba(128, 128, 128, 0.356) solid;
+    width: 95%;
+    margin-top: 15px;
+    background-color: rgb(0, 110, 255);
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-penal h5{
+    color: white;
+}
+.dashboard-links a{
+    color: white !important;
+    /* width: 20%; */
+
+}
+
+.dashboard-links p{
+    font-size: 20px !important;
+    padding: 15px !important;
+    margin: 0 !important;
+    transition: transform .2s, background-color .5s;
+    border-bottom: 1px rgba(128, 128, 128, 0.432) groove;
+    /* width: 20%; */
+}
+.dashboard-links .treeview{
+    font-size: 20px !important;
+    padding: 15px !important;
+    /* padding-bottom: 10px; */
+    transition: transform .2s, background-color .5s;
+    border-bottom: 1px rgba(128, 128, 128, 0.432) groove;
+}
+
+.dashboard-links svg{
+    margin-right: 8px  !important;
+    margin-bottom: 3px !important;
+}
+
+.dashboard-links P:hover, .dashboard-links .treeview:hover{
+    transform: scale(1.03) ;
+    background-color: rgb(0, 110, 255);
+}
+
+.MuiTreeItem-label{
+    font-size: 20px !important;
+}
+
+.offcanvas.offcanvas-start{
+    width: 300px !important;
+    /* height: 90vh; */
+    top: 9%;
+}
+.css-1bcfi89-MuiTreeItem-content .MuiTreeItem-iconContainer svg{
+    font-size: 25px !important;
+}
+
+.offcanvas-backdrop.show{
+    display: none !important;
+}

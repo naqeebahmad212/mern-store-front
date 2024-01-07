@@ -1,0 +1,122 @@
+.product-preview{
+    width: 50%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.carousel-container{
+    height: 550px;
+    width: 300px;
+
+}
+
+.carousel-img-div{
+    height: 450px;
+    width: 300px;
+    overflow: hidden;
+}
+
+
+.product-details-block-2 .quantity-btn{
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 4%;
+    /* color: white; */
+    background-color: transparent;
+}
+.div-quantity{
+    border: 1px gray solid;
+    width: 70px;
+}
+
+.product-details-block-2 input{
+    outline: none;
+    width: 30px;
+    text-align: center;
+    border: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.add-cart,.submit-review-btn{
+    border: none;
+    padding: 10px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: rgb(32, 23, 23);
+    color: white;
+}
+
+.submit-review-btn:hover, .add-cart:hover{
+background-color: rgb(0, 0, 0);
+color: aliceblue;
+}
+
+.submitDialog {
+    display: flex;
+    flex-direction: column;
+  }
+  .submitDialogTextArea {
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    margin: 1vmax 0;
+    outline: none;
+    padding: 1rem;
+    font: 300 1rem "Roboto";
+  }
+  
+  .reviewsHeading {
+    color: #000000be;
+    font: 500 1.4vmax "Roboto";
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+    padding: 1vmax;
+    width: 20vmax;
+    margin: auto;
+    margin-bottom: 4vmax;
+  }
+  .reviews {
+    display: flex;
+    overflow: auto;
+  }
+
+
+@media screen and (max-width:991px) {
+    .product-details-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .product-preview{
+        align-self: center;
+    }
+    .product-details{
+        justify-content: center;
+    }
+
+    .product-details div{
+        margin: auto;
+    }
+    .product-details-block-1 h3, .product-details-block-1 h5, .product-details-block-1 h6 , .product-details-block-1 p{
+        text-align: center;
+    }
+    .product-details-block-1 button{
+        width: 50%;
+    }
+    .product-details-block-3 p{
+        text-align: center;
+    }
+}
+

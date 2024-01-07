@@ -1,0 +1,80 @@
+.productListContainer {
+    width: 100%;
+    box-sizing: border-box;
+    /* background-color: rgb(255, 255, 255); */
+    border-left: 1px solid rgba(0, 0, 0, 0.158);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .all-products-admin{
+    width: 85%;
+  }
+  
+  #productListHeading {
+    font: 400 2rem "Roboto";
+    padding: 0.5vmax;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.637);
+    transition: all 0.5s;
+    margin: 2rem;
+    text-align: center;
+  }
+  
+  .productListTable {
+    background-color: white;
+    border: none !important;
+  }
+  
+  .productListTable div {
+    font: 300 1vmax "Roboto";
+    /* color: rgba(0, 0, 0, 0.678); */
+    border: none !important;
+  }
+  
+  .productListTable a,
+  .productListTable button {
+    color: rgba(0, 0, 0, 0.699);
+    transition: all 0.5s;
+    border: none;
+    margin: 0 10px;
+  }
+  
+  .productListTable a:hover {
+    color: tomato;
+  }
+  
+  .productListTable button:hover {
+    color: rgb(236, 30, 30);
+  }
+
+
+  .css-ptkaw2-MuiDataGrid-root .MuiDataGrid-columnHeader{
+    background-color: rgb(0, 140, 255);
+    color: white;
+  }
+ 
+
+  .red{
+    color: red !important;
+  }
+  .green{
+    color: green !important;
+  }
+  /* .MuiDataGrid-columnHeader div {
+    color: rgb(255, 255, 255);
+  } */
+
+
+  .order-status-box{
+    padding: 7px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0px 3px 0px;
+  }
+
+  .order-status-box button{
+    border: none;
+    padding: 5px;
+  }

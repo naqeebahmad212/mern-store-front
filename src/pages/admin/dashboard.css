@@ -1,0 +1,87 @@
+.dashboard-main-container{
+    margin: 0;
+    padding: 0 !important;
+    overflow: hidden !important;
+}
+
+
+.dashboard-sidebar{
+    border-right: 1px rgba(128, 128, 128, 0.356) solid;
+    width: 20%;
+    background-color: rgb(32, 32, 32);
+    position: sticky;
+    min-height: 100vh;
+
+
+   
+}
+.dashboard{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.total-amount-container{
+    width: 90%;
+    background-color: rgb(22, 99, 216);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.info-circels{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.info-circels div{
+    /* background-color: aqua; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 250, 250);
+    box-shadow: -3px 0px 3px 1px rgba(0, 0, 0, 0.301);
+}
+
+.user-box{
+    background-color: rgb(221, 75, 75);
+}
+
+.order-box{
+    background-color: rgb(1, 159, 233);
+}
+
+.product-box{
+    background-color: rgb(146, 135, 34);
+}
+
+
+.line-chart {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+  
+  .doughnutChart {
+    width: 30vmax;
+    margin: auto;
+    margin-top: 30px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+  }
+
+  .offcanvas-backdrop{
+    display: none !important;
+  }

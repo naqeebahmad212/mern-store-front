@@ -1,0 +1,45 @@
+
+.profile-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content :center;
+}
+
+ .profile-image{
+    width: 250px;
+    height: 280px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-image img{
+    width: 100%;
+    margin: auto    ;
+}
+
+.profile-section a{
+    color: white !important;
+}
+.profile-section button{
+   margin-top: 20px;
+   color: white;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.user-details-section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.user-details-section h3, p{
+    padding: 20px 0px;
+}

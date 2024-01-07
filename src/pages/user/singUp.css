@@ -1,0 +1,101 @@
+.signup-form{
+    width: 300px;
+    margin-top: 30px;
+}
+
+
+.signup-form .signup-box{
+    position: relative;
+}
+
+.signup-box select{
+    padding: 10px;
+    /* padding-right: 1vmax; */
+    width: 100%;
+    padding-left: 30px;
+    /* box-sizing: border-box; */
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    /* font: 300 0.9vmax cursive; */
+    outline: none;
+}
+
+.signup-box svg{
+    position: absolute ;
+    top: 60%;
+    left: 2%;
+}
+
+.signup-box input{
+    padding: 20px;
+    padding-left: 30px;
+    outline: none;
+    border: 1px solid rgb(221, 219, 219);
+    
+}
+
+
+.signup-box input:hover{
+    outline: none;
+}
+
+ .profile-box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-box img{
+    height: 100%;
+    width: 100%;
+}
+
+.file-selector{
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    /* visibility: hidden; */
+    color: transparent;
+}
+
+.profile-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.forget-link a{
+    font-size: 10px;
+    color: rgb(35, 35, 184) !important;
+}
+
+.forget-link{
+    padding: 0 !important;
+    margin: 0 !important;
+    text-align: end;
+}
+
+
+.file-selector-product{
+
+    /* padding: 1vmax 4vmax; */
+    /* padding-right: 1vmax; */
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font: 300 0.9vmax cursive;
+    outline: none;
+}
+
+.product-image-box{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.product-image-box img{
+    width: 100%;
+}

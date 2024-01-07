@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input::file-selector-button {
+  /* font-weight: bold; */
+  color: transparent;
+  padding: 14px 0;
+  /* width: 1%; */
+  border: none;
+  background-color: transparent;
+
+  
+  /* visibility: hidden; */
+  border-radius: 3px;
+}
+
+a{
+  text-decoration: none !important;
+}
+
+.css-7dv1rb-MuiButtonBase-root-MuiFab-root-MuiSpeedDial-fab{
+  width: 46px !important;
+  height: 46px !important;
+  overflow: hidden !important;
+}
+
+.speedDial {
+  position: fixed;
+  right: 3vmax;
+  top: .3vmax;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  /* border-radius: 100%; */
+}
+
+
+
+
