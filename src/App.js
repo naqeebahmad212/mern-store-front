@@ -51,6 +51,7 @@ function App() {
     axios
       .get(`${server}/me`, { withCredentials: true })
       .then((res) => {
+        dispatch(authReducer(true));
       })
       .catch((err) => {
         if (err) {
@@ -129,7 +130,6 @@ function App() {
           <Route path="/admin/product/edit/:id" element={<UpdateProduct />} />
           <Route path="/admin/users" element={<AdminUsers />} />
         </Route>
-        
       </Routes>
     </Router>
   );
