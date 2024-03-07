@@ -4,7 +4,7 @@
   top: 0;
 }
 .front-container {
-  /* height: 100vh; */
+  min-height: 80vh;
   width: 100%;
   background-image: url("../../images/cover.jfif");
   background-position: center;
