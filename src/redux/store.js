@@ -3,7 +3,7 @@ import userReducer from '../redux/userSlice/userSlice'
 import productReducer from '../redux/productSlice/productSlice'
 
 
-export const server=`https://ecommerce-mren-app.vercel.app`
+export const server=`http://localhost:4000`
 
  export const store=configureStore({
     reducer:{

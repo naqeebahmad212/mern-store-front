@@ -161,8 +161,8 @@ const ProductDetails = () => {
       </div>
 
       <div className="product-details-block-3 container d-flex justify-content-center align-items-center mb-5">
-        <h4 className="mb-0"> Description : </h4>{" "}
-        <p> {product && product.description}</p>
+        <h4 className="mb-2"> Description : </h4>{" "}
+        <p className="m-0 mx-2"> {product && product.description}</p>
       </div>
 
       <Dialog

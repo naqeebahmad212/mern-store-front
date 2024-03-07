@@ -37,16 +37,19 @@ a{
   position: fixed;
   right: 3vmax;
   top: .3vmax;
-  overflow: hidden;
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  /* width: 50px;
+  height: 50px; */
 
+}
+
+.css-7dv1rb-MuiButtonBase-root-MuiFab-root-MuiSpeedDial-fab:hover{
+  overflow: hidden;
 }
 
 .speedDialIcon {
   width: 56px;
-  height: 56px;
+  height: 76px;
   /* border-radius: 100%; */
 }
 
