@@ -3,13 +3,7 @@ import { SpeedDial, SpeedDialAction } from "@mui/material";
 // import SpeedDial from '@mui/material/SpeedDial'
 import { Backdrop } from "@mui/material";
 import Profile from "./Profile.png";
-import {
-  MdDashboard,
-  MdHome,
-  MdLogout,
- 
-  MdShoppingCart,
-} from "react-icons/md";
+import { MdDashboard, MdHome, MdLogout, MdShoppingCart } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import { server } from "../../redux/store";
 import { useDispatch, useSelector } from "react-redux";
@@ -27,7 +21,7 @@ const UserOptions = () => {
     axios.get(`${server}/logout`, { withCredentials: true }).then((res) => {
       // localStorage.removeItem('user')
       dispatch(removeUserInfo());
-      dispatch(authReducer(false))
+      dispatch(authReducer(false));
       navigate("/");
     });
   };
@@ -44,20 +38,19 @@ const UserOptions = () => {
         style={{ zIndex: 9 }}
         icon={
           <img
-            style={{ width: "100%" }}
+            style={{ height: "100%" }}
             src={user && user.image ? user.image.url : Profile}
             alt="Profile"
           />
         }
       >
-
-        {user && user.role === 'admin' &&(
-                  <SpeedDialAction
-                  key={"khan"}
-                  icon={<MdDashboard />}
-                  tooltipTitle={"Dashboard"}
-                  onClick={() => navigate("/admin/dashboard")}
-                />
+        {user && user.role === "admin" && (
+          <SpeedDialAction
+            key={"khan"}
+            icon={<MdDashboard />}
+            tooltipTitle={"Dashboard"}
+            onClick={() => navigate("/admin/dashboard")}
+          />
         )}
 
         <SpeedDialAction
@@ -70,8 +63,12 @@ const UserOptions = () => {
         <SpeedDialAction
           key={"cart"}
           icon={<MdShoppingCart />}
-          tooltipTitle={cartItems && cartItems.length > 0 ? `Cart (${cartItems.length})` : 'Cart'}
-          onClick={()=> navigate('/cart')}
+          tooltipTitle={
+            cartItems && cartItems.length > 0
+              ? `Cart (${cartItems.length})`
+              : "Cart"
+          }
+          onClick={() => navigate("/cart")}
         />
 
         <SpeedDialAction
